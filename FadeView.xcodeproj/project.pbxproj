@@ -15,6 +15,7 @@
 		B8766D841BF596F300F7311D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8766D821BF596F300F7311D /* LaunchScreen.storyboard */; };
 		B8766D8F1BF596F400F7311D /* FadeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8766D8E1BF596F400F7311D /* FadeViewTests.m */; };
 		B8766D9A1BF596F400F7311D /* FadeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8766D991BF596F400F7311D /* FadeViewUITests.m */; };
+		B8766DA91BF5971C00F7311D /* GDFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8766DA81BF5971C00F7311D /* GDFadeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B8766D951BF596F400F7311D /* FadeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8766D991BF596F400F7311D /* FadeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeViewUITests.m; sourceTree = "<group>"; };
 		B8766D9B1BF596F400F7311D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8766DA71BF5971C00F7311D /* GDFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFadeView.h; sourceTree = "<group>"; };
+		B8766DA81BF5971C00F7311D /* GDFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFadeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B8766D781BF596F300F7311D /* AppDelegate.m */,
 				B8766D7A1BF596F300F7311D /* ViewController.h */,
 				B8766D7B1BF596F300F7311D /* ViewController.m */,
+				B8766DA71BF5971C00F7311D /* GDFadeView.h */,
+				B8766DA81BF5971C00F7311D /* GDFadeView.m */,
 				B8766D7D1BF596F300F7311D /* Main.storyboard */,
 				B8766D801BF596F300F7311D /* Assets.xcassets */,
 				B8766D821BF596F300F7311D /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8766D7C1BF596F300F7311D /* ViewController.m in Sources */,
+				B8766DA91BF5971C00F7311D /* GDFadeView.m in Sources */,
 				B8766D791BF596F300F7311D /* AppDelegate.m in Sources */,
 				B8766D761BF596F300F7311D /* main.m in Sources */,
 			);
